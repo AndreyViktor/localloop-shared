@@ -1,0 +1,22 @@
+{
+  "name": "@localloop/geo-utils",
+  "version": "1.0.0",
+  "description": "Geohash helpers for LocalLoop — coordinate conversion, neighbor cells, proximity labels",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ngeohash": "^0.6.3"
+  },
+  "devDependencies": {
+    "@types/ngeohash": "^0.6.6",
+    "typescript": "^5.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
